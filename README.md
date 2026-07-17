@@ -1,12 +1,16 @@
 # MachXO2-640HC FPGA Breakout Board - KiCad Design 🛠️
 
-> Custom breakout board for Lattice **LCMXO2-640HC-6MG132I** - Designed in KiCad 9.0.3 - 8 Sheets Hierarchical - By Jay Waghmare
+> Custom breakout board for Lattice **LCMXO2-640HC-6MG132I** - Designed in KiCad 9.0.3 - 8 Sheets Hierarchical - By Jay Waghmare, Pune, India
 
 [![KiCad](https://img.shields.io/badge/KiCad-9.0.3-314CB0?style=for-the-badge&logo=kicad&logoColor=white)](https://kicad.org)
 [![FPGA](https://img.shields.io/badge/FPGA-LCMXO2--640HC--6MG132I-ED1C24?style=for-the-badge)](https://www.latticesemi.com)
 [![Board](https://img.shields.io/badge/Board-132--Ball%20CSBGA-orange?style=for-the-badge)](#)
 [![Author](https://img.shields.io/badge/Author-jay--waghmare-181717?style=for-the-badge&logo=github)](https://github.com/jay-waghmare)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jay-waghmare/MachXO2-KiCad-Board/main/hardware/3d-render.png" alt="3D Render" width="600" />
+  <br><em>3D Render - MachXO2-640HC Board (KiCad 3D View)</em>
+</p>
 
 ## 🌟 What Is This? (From My Schematic PDF)
 
@@ -45,5 +49,50 @@ Why I made my own? To learn FPGA hardware - Power sequencing, decoupling, JTAG, 
 - **UART:** U7 FT231XQ with C26 4.7uF C27 0.1uF C28 0.1uF, TXD_FTDI, RXD_FTDI, RTS_FTDI, CTS, VBUS detection R1 4K7 + R13 10K divider
 - **JTAG Programmer:** Lattice HW-USBN-2B USB cable with 10 flywire - Official tool - TCK White 4.7K to GND, TDI Orange 22R series, TDO Brown direct, TMS Purple 22R series, GND Black, VCC Red 0.1uF, PROGRAMN Yellow 4.7K+btn, DONE Blue LED+330Ω, INITN Green float, JTAGENB Gray float
 
+## 📁 Files (Your Actual Uploads - Live)
 
+**You uploaded:** .kicad_pro, .kicad_sch, .kicad_pcb, .kicad_prl, schematic.pdf, 3d-render.png, pcb_preview.png - Full project!
 
+## 📸 Photos / Renders
+
+| Schematic PDF | PCB Preview | 3D Render |
+|---------------|-------------|-----------|
+| [schematic.pdf](hardware/schematics/schematic.pdf) (8 pages) | <img src="hardware/pcb_preview.png" width="250" /> | <img src="hardware/3d-render.png" width="250" /> |
+
+<p align="center">
+  <img src="hardware/pcb_preview.png" alt="PCB Preview" width="400" />
+  <img src="hardware/3d-render.png" alt="3D Render" width="400" />
+</p>
+
+## 📦 How to View
+
+1. Install KiCad 9.0.3: https://kicad.org/download/
+2. Clone: git clone https://github.com/jay-waghmare/MachXO2-KiCad-Board.git
+cd MachXO2-KiCad-Board
+3. Open `MACHXO2_test.kicad_pro` → Schematic Editor (8 sheets) → PCB Editor → 3D View
+
+## 🗺️ Roadmap
+
+- [x] KiCad hierarchical schematic 8 sheets - LCMXO2-640HC - Done (your PDF)
+- [x] Upload .kicad_pro, .kicad_sch, .kicad_pcb, .kicad_prl - Done (5-6 greens today!)
+- [x] Upload schematic.pdf + 3D renders - Done 5 mins ago!
+- [ ] Add hardware/bom.md with exact values from schematic
+- [ ] Add docs/design.md - Why 640HC, why TL1963A + LD1117, why 132-ball
+- [ ] Export Gerbers: File → Fabrication Outputs → Gerbers → hardware/pcb/gerbers.zip
+- [ ] Fabricate at JLCPCB
+- [ ] Bring-up: Power test 3.3V/1.2V, JTAG scan with HW-USBN-2B, first blinky
+- [ ] Add real board photos
+
+## 👨‍💻 Author
+
+**Jay Waghmare** - FPGA 
+- GitHub: [@jay-waghmare](https://github.com/jay-waghmare) 
+- Board: LCMXO2-640HC-6MG132I custom breakout - Designed from scratch in KiCad 9.0.3
+
+If you like FPGA hardware boards, please ⭐ star!
+
+## 📄 License
+
+MIT License
+
+> Designed from scratch in KiCad 9.0.3 
