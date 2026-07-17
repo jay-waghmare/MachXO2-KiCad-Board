@@ -1,6 +1,6 @@
 # MachXO2 FPGA Board - KiCad Design 🛠️
 
-> Custom breakout board for Lattice MachXO2 FPGA - Designed in KiCad by Jay Waghmare - Pune, India
+> Custom breakout board for Lattice MachXO2 FPGA - Designed in KiCad by Jay Waghmare
 
 [![KiCad](https://img.shields.io/badge/KiCad-7.0-314CB0?style=for-the-badge&logo=kicad&logoColor=white)](https://kicad.org)
 [![FPGA](https://img.shields.io/badge/FPGA-MachXO2-ED1C24?style=for-the-badge)](https://www.latticesemi.com)
