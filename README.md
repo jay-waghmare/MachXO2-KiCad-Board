@@ -7,10 +7,6 @@
 [![Board](https://img.shields.io/badge/Board-132--Ball%20CSBGA-orange?style=for-the-badge)](#)
 [![Author](https://img.shields.io/badge/Author-jay--waghmare-181717?style=for-the-badge&logo=github)](https://github.com/jay-waghmare)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/jay-waghmare/MachXO2-KiCad-Board/main/hardware/3d-render.png" alt="3D Render" width="600" />
-  <br><em>3D Render - MachXO2-640HC Board (KiCad 3D View)</em>
-</p>
 
 ## 🌟 What Is This? (From My Schematic PDF)
 
@@ -49,4 +45,4 @@ Why I made my own? To learn FPGA hardware - Power sequencing, decoupling, JTAG, 
 - **UART:** U7 FT231XQ with C26 4.7uF C27 0.1uF C28 0.1uF, TXD_FTDI, RXD_FTDI, RTS_FTDI, CTS, VBUS detection R1 4K7 + R13 10K divider
 - **JTAG Programmer:** Lattice HW-USBN-2B USB cable with 10 flywire - Official tool - TCK White 4.7K to GND, TDI Orange 22R series, TDO Brown direct, TMS Purple 22R series, GND Black, VCC Red 0.1uF, PROGRAMN Yellow 4.7K+btn, DONE Blue LED+330Ω, INITN Green float, JTAGENB Gray float
 
-## 📁 Files (Your Actual Uploads - Live)
+## 📁 Files 
